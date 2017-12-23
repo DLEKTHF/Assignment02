@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16B2657" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Assigns" representedClassName="Assigns" syncable="YES" codeGenerationType="class">
+        <attribute name="assign_Class_Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="assign_Content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="assign_Day" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="assign_Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="assign_Time" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Classes" representedClassName="Classes" syncable="YES" codeGenerationType="class">
+        <attribute name="class_Day" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="class_Email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="class_Memo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="class_Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="class_Percent1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="class_Percent2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="class_Percent3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="class_Percent4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="class_Percent5" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="class_Place" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="class_Pro_Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="class_Quest1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="class_Quest2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="class_Quest3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="class_Quest4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="class_Quest5" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="class_Time" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Tests" representedClassName="Tests" syncable="YES" codeGenerationType="class">
+        <attribute name="test_Day" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="test_Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="test_Place" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="test_Range" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="test_Time" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Classes" positionX="-63" positionY="-18" width="128" height="300"/>
+        <element name="Tests" positionX="-63" positionY="-9" width="128" height="120"/>
+        <element name="Assigns" positionX="-54" positionY="0" width="128" height="120"/>
+    </elements>
+</model>
